@@ -4,6 +4,7 @@ import Header from './components/header'
 import About from './components/about'
 import Hero from './components/hero'
 import Skills from './components/skills'
+import Footer from './components/footer'
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Hero/>
         <About/>
         <Skills/>
+        <Footer/>
       </div>
     );
   }

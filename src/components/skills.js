@@ -5,9 +5,9 @@ import { Container, Progress } from 'nes-react'
 class Skills extends Component {
   render() {
     return (
-      <StyledContainer title="Skills" id="skills">
+      <StyledContainer title="Skills" id="skills" dark>
         <div className="skills-container">
-          <div class="skills-copy">
+          <div className="skills-copy">
             <p>I have the ability to build and design beautifully crafted web applications from the ground up. Starting with the planning stage all the way to making a shippable product. I know technologies such as HTML5, CSS3, JavaScript and many more.</p>
           </div>
           <div className="progress-container">

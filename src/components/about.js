@@ -8,7 +8,7 @@ class About extends Component {
   render() {
     return (
       <section>
-        <StyledContainer title="About" id="about">
+        <StyledContainer title="About" id="about" dark>
           <Talking>
             <div className="chat left">
               <div className="me">
@@ -48,6 +48,7 @@ const Talking = styled.div`
     display: flex;
     width: 100%;
     margin: 20px 0;
+    color: #000;
   }
   .chat.left {
     align-self: flex-start;
