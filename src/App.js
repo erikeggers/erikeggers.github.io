@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import './App.scss'
 import Header from './components/header'
-import About from './components/about'
 import Hero from './components/hero'
+import About from './components/about'
 import Skills from './components/skills'
+import Work from './components/work'
 import Footer from './components/footer'
 
 class App extends Component {
@@ -14,6 +14,7 @@ class App extends Component {
         <Hero/>
         <About/>
         <Skills/>
+        <Work/>
         <Footer/>
       </div>
     );

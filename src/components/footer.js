@@ -1,24 +1,24 @@
 import React, { Component } from 'react'
-// import { Link } from "react-scroll";
 import styled from 'styled-components'
 import { Icon, Container } from 'nes-react'
+import resume from '../ErikEggers_Resume.pdf'
 
 
 class Footer extends Component {
   render() {
     return (
-      <StyledContainer title="Let's Connect" dark>
+      <StyledContainer title="Let's Connect" id="connect" dark>
         <StyledFooter>
         <div className="lets-connect">
           <p>Interested in hiring me or just talking tech? I would love to connect. Feel free to follow me on social media.</p>
           <div className="social-media-links">
-            <a href="">
+            <a href="https://github.com/erikeggers">
               <Icon icon="github" large></Icon>
             </a>
-            <a href="">
+            <a href="https://twitter.com/sovthtv">
               <Icon icon="twitter" large></Icon>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/erikeggers/">
               <Icon icon="linkedin" large></Icon>
             </a>
           </div>
@@ -26,7 +26,7 @@ class Footer extends Component {
         <div className="contact-options">
           <a href="mailto:em.eggers@gmail.com?Subject=Hello%20there">em.eggers@gmail.com</a>
           <a href="tel:1-864-518-4032">864.518.4032</a>
-          <a href="">Resume</a>
+          <a href={resume}>Resume</a>
         </div>
         </StyledFooter>
       </StyledContainer>

@@ -17,10 +17,16 @@ class Skills extends Component {
             <p>HTML</p>
             <StyledProgress value={100} max={100} primary></StyledProgress>
             <p>CSS</p>
-            <StyledProgress value={80} max={100} primary></StyledProgress>
+            <StyledProgress value={85} max={100} primary></StyledProgress>
             <p>React</p>
-            <StyledProgress value={60} max={100} primary></StyledProgress>
+            <StyledProgress value={65} max={100} primary></StyledProgress>
             <p>Node</p>
+            <StyledProgress value={75} max={100} primary></StyledProgress>
+            <p>Sketch</p>
+            <StyledProgress value={65} max={100} primary></StyledProgress>
+            <p>Affinity Designer</p>
+            <StyledProgress value={60} max={100} primary></StyledProgress>
+            <p>Photoshop</p>
           </div>
         </div>
       </StyledContainer>
@@ -41,6 +47,18 @@ const StyledContainer = styled(Container)`
   }
   .skills-copy {
     padding: 0 2em;
+  }
+
+  @media (max-width: 1020px) {
+    .skills-container {
+      flex-direction: column;
+    }
+    .progress-container, .skills-copy {
+      width: 100%;
+    }
+    .skills-copy {
+      padding: 0;
+    }
   }
 
 `

@@ -31,7 +31,26 @@ class Header extends Component {
                 <Button className="header-button" primary>Skills</Button>
               </Link>
             </li>
-            <li><Link to="#"><Button className="header-button" primary>Work</Button></Link></li>
+            <li>
+              <Link 
+                  to="work"
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  <Button className="header-button" primary>Work</Button>
+              </Link>
+            </li>
+            <li>
+              <Link 
+                  to="connect"
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  <Button className="header-button" primary>Connect</Button>
+              </Link>
+            </li>
           </ul>
         </nav>
       </StyledHeader>
@@ -50,10 +69,27 @@ const StyledHeader = styled.header`
   }
   nav ul {
     list-style: none;
+    padding: 0;
     li {
       display: inline-block;
       .header-button {
         margin: 0 10px;
+      }
+    }
+  }
+  @media (max-width: 1020px) {
+    flex-direction: column;
+    align-items: center;
+    nav ul {
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 610px) {
+    nav ul {
+      text-align: center;
+      li {
+        display: block;
+        margin-bottom: 18px;
       }
     }
   }
