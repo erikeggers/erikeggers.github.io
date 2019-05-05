@@ -1,14 +1,16 @@
 {
-  "main.css": "/portfoliov2/static/css/main.44043b89.chunk.css",
-  "main.js": "/portfoliov2/static/js/main.aa5e6c54.chunk.js",
-  "main.js.map": "/portfoliov2/static/js/main.aa5e6c54.chunk.js.map",
+  "main.js": "/portfoliov2/static/js/main.8eb121a6.chunk.js",
+  "main.js.map": "/portfoliov2/static/js/main.8eb121a6.chunk.js.map",
   "runtime~main.js": "/portfoliov2/static/js/runtime~main.643aafd7.js",
   "runtime~main.js.map": "/portfoliov2/static/js/runtime~main.643aafd7.js.map",
-  "static/js/2.3f65a991.chunk.js": "/portfoliov2/static/js/2.3f65a991.chunk.js",
-  "static/js/2.3f65a991.chunk.js.map": "/portfoliov2/static/js/2.3f65a991.chunk.js.map",
+  "static/js/2.1eb327f7.chunk.js": "/portfoliov2/static/js/2.1eb327f7.chunk.js",
+  "static/js/2.1eb327f7.chunk.js.map": "/portfoliov2/static/js/2.1eb327f7.chunk.js.map",
   "index.html": "/portfoliov2/index.html",
-  "precache-manifest.ff506aac8038648f59b6b7c5ec20fb01.js": "/portfoliov2/precache-manifest.ff506aac8038648f59b6b7c5ec20fb01.js",
+  "precache-manifest.bb9cdde809b388ed23ce8cd09500c792.js": "/portfoliov2/precache-manifest.bb9cdde809b388ed23ce8cd09500c792.js",
   "service-worker.js": "/portfoliov2/service-worker.js",
-  "static/css/main.44043b89.chunk.css.map": "/portfoliov2/static/css/main.44043b89.chunk.css.map",
-  "static/media/Me.jpg": "/portfoliov2/static/media/Me.b71ab868.jpg"
+  "static/media/BikeShop.png": "/portfoliov2/static/media/BikeShop.bfb00e1b.png",
+  "static/media/BrikBit.png": "/portfoliov2/static/media/BrikBit.b151d1a1.png",
+  "static/media/ErikEggers_Resume.pdf": "/portfoliov2/static/media/ErikEggers_Resume.b2971751.pdf",
+  "static/media/Me.jpg": "/portfoliov2/static/media/Me.b71ab868.jpg",
+  "static/media/OrderForm.png": "/portfoliov2/static/media/OrderForm.99efdd7f.png"
 }
