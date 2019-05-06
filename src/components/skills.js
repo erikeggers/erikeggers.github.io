@@ -38,6 +38,9 @@ export default Skills;
 
 const StyledContainer = styled(Container)`
   margin: 2em;
+  @media (max-width: 610px) {
+    margin: 1em;
+  }
   .skills-container {
     display: flex;
     align-items: center;

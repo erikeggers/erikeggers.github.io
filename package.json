@@ -2,7 +2,7 @@
   "name": "portfoliov2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://erikeggers.github.io/portfoliov2",
+  "homepage": "http://erikeggers.github.io/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "nes-react": "^1.0.2",

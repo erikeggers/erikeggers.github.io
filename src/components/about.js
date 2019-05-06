@@ -39,6 +39,9 @@ export default About;
 
 const StyledContainer = styled(Container)`
   margin: 2em;
+  @media (max-width: 610px) {
+    margin: 1em;
+  }
 `
 
 const Talking = styled.div`

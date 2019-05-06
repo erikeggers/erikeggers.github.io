@@ -55,8 +55,27 @@ const StyledFooter = styled.footer`
       font-size: 1.5em;
     }
   }
+  @media (max-width: 1020px) {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    .lets-connect {
+      width: 100%;
+    }
+    .contact-options {
+      text-align: center;
+      a {
+        display: block;
+        margin-top: 20px;
+        font-size: 1em;
+      }
+    }
+  }
 `
 
 const StyledContainer = styled(Container)`
   margin: 2em;
+  @media (max-width: 610px) {
+    margin: 1em;
+  }
 `

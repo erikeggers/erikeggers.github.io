@@ -13,10 +13,10 @@ class Work extends Component {
         <div className="work-container">
           <p>Here is some of my recent work. I am constantly working on new ideas and projects. This will update overtime!</p>
           <div className="work-links">
-            <a href="http://erikeggers.github.io/BrikBit/">
+            <a href="/BrikBit/">
               <img src={BrikBit} alt="BrikBit"/>
             </a>
-            <a href="http://erikeggers.github.io/bike_shop/">
+            <a href="/bike_shop/">
               <img src={BikeShop} alt="Bike Shop"/>
             </a>
             <a href="http://erikeggers.github.io/responsive-accessible-form/">
@@ -33,6 +33,9 @@ export default Work;
 
 const StyledContainer = styled(Container)`
   margin: 2em;
+  @media (max-width: 610px) {
+    margin: 1em;
+  }
   .work-container {
     text-align: center;
     p {
