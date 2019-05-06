@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "e7c38db30a215fd2b680",
-    "url": "/portfoliov2/static/js/main.6a2a937c.chunk.js"
+    "revision": "8c3a86d5c56d011daa42",
+    "url": "/portfoliov2/static/js/main.bb529b79.chunk.js"
   },
   {
     "revision": "022f4a3d427f18a59469",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/portfoliov2/static/media/ErikEggers_Resume.b2971751.pdf"
   },
   {
-    "revision": "8631e63578b852f82751f788e89b892c",
+    "revision": "23ed480a2e354dd9c47a268867c565c8",
     "url": "/portfoliov2/index.html"
   }
 ];
