@@ -1,16 +1,17 @@
 {
-  "main.js": "/static/js/main.7ebfa777.chunk.js",
-  "main.js.map": "/static/js/main.7ebfa777.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.c5541365.js",
-  "runtime~main.js.map": "/static/js/runtime~main.c5541365.js.map",
-  "static/js/2.3e3cad1b.chunk.js": "/static/js/2.3e3cad1b.chunk.js",
-  "static/js/2.3e3cad1b.chunk.js.map": "/static/js/2.3e3cad1b.chunk.js.map",
+  "main.js": "/static/js/main.b7ef010a.chunk.js",
+  "main.js.map": "/static/js/main.b7ef010a.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.bc54cc18.chunk.js": "/static/js/2.bc54cc18.chunk.js",
+  "static/js/2.bc54cc18.chunk.js.map": "/static/js/2.bc54cc18.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.e8ab1b44cb1c511f22e2795d4fb5c66d.js": "/precache-manifest.e8ab1b44cb1c511f22e2795d4fb5c66d.js",
+  "precache-manifest.f38df1efde71901a7f3d12856d7012d1.js": "/precache-manifest.f38df1efde71901a7f3d12856d7012d1.js",
   "service-worker.js": "/service-worker.js",
   "static/media/BikeShop.png": "/static/media/BikeShop.bfb00e1b.png",
   "static/media/BrikBit.png": "/static/media/BrikBit.b151d1a1.png",
   "static/media/ErikEggers_Resume.pdf": "/static/media/ErikEggers_Resume.b2971751.pdf",
   "static/media/Me.jpg": "/static/media/Me.b71ab868.jpg",
-  "static/media/OrderForm.png": "/static/media/OrderForm.99efdd7f.png"
+  "static/media/OrderForm.png": "/static/media/OrderForm.99efdd7f.png",
+  "static/media/inmans.png": "/static/media/inmans.1767db35.png"
 }
