@@ -14,13 +14,13 @@ class Work extends Component {
         <div className="work-container">
           <p>Here is some of my recent work. I am constantly working on new ideas and projects. This will update overtime!</p>
           <div className="work-links" target="blank">
-            <a href="/BrikBit/">
+            <a href="https://erikeggers.github.io/BrikBit/">
               <img src={BrikBit} alt="BrikBit"/>
             </a>
-            <a href="/bike_shop/" target="blank">
+            <a href="https://erikeggers.github.io/bike_shop/" target="blank">
               <img src={BikeShop} alt="Bike Shop"/>
             </a>
-            <a href="http://erikeggers.github.io/responsive-accessible-form/" target="blank">
+            <a href="https://erikeggers.github.io/responsive-accessible-form/" target="blank">
               <img src={OrderForm} alt="Responsive Accessible Order Form"/>
             </a>
             <a href="https://inmanspecialtyfoods.com/" target="blank">
