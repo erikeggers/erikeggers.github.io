@@ -26,7 +26,7 @@ class About extends Component {
               <div className="me">
                 <Avatar rounded medium src={me} alt="Erik Eggers" />
               </div>
-              <Balloon fromLeft className="balloon">I currently live in the lovely Greenville, SC. I love Greenville and the tech community surrounding it, but I am willing to relocate. I would love to work as a web developer in the video game industry.</Balloon>
+              <Balloon fromLeft className="balloon">I currently live in the lovely Greenville, SC. I love Greenville and the tech community surrounding it, but I am willing to relocate.</Balloon>
             </div>
           </Talking>
         </StyledContainer>

@@ -4,6 +4,7 @@ import { Container } from 'nes-react'
 import BrikBit from '../BrikBit.png'
 import BikeShop from '../BikeShop.png'
 import OrderForm from '../OrderForm.png'
+import Inmans from '../inmans.png'
 
 
 class Work extends Component {
@@ -12,15 +13,18 @@ class Work extends Component {
       <StyledContainer title="Work" id="work" dark>
         <div className="work-container">
           <p>Here is some of my recent work. I am constantly working on new ideas and projects. This will update overtime!</p>
-          <div className="work-links">
+          <div className="work-links" target="blank">
             <a href="/BrikBit/">
               <img src={BrikBit} alt="BrikBit"/>
             </a>
-            <a href="/bike_shop/">
+            <a href="/bike_shop/" target="blank">
               <img src={BikeShop} alt="Bike Shop"/>
             </a>
-            <a href="http://erikeggers.github.io/responsive-accessible-form/">
+            <a href="http://erikeggers.github.io/responsive-accessible-form/" target="blank">
               <img src={OrderForm} alt="Responsive Accessible Order Form"/>
+            </a>
+            <a href="https://inmanspecialtyfoods.com/" target="blank">
+              <img src={Inmans} alt="Inman's Specialty Foods"/>
             </a>
           </div>
         </div>

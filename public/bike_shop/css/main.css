@@ -89,6 +89,7 @@ button, input[type="submit"] {
    color: #FFFFFF;
    font-weight: 900;
    text-transform: uppercase;
+   cursor: pointer;
 }
 
 
@@ -494,6 +495,9 @@ aside ul:nth-child(2) ol li:last-of-type {
 #products ul li {
     text-align: center;
     height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #products ul li:first-of-type {
@@ -520,22 +524,17 @@ aside ul:nth-child(2) ol li:last-of-type {
     background-size: cover;
 }
 
-#products ul li:nth-child(2),
-#products ul li:nth-child(3) {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    width: 50%;
+#products ul li .productText {
+    background: #C0392B;
+    padding: 15px 25px;
 }
 
-
-#products ul li:nth-child(3){
-    float: right;
+#products ul li .productText a {
+    color: #FFF;
 }
 
 #products h3 {
-    padding-top: 15rem;
-    color: #444444;
+    color: #FFF;
 }
 
 /* Club Events
